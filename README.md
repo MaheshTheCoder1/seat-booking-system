@@ -1,27 +1,27 @@
-# 🚀 Smart Seat Booking System
+# Smart Seat Booking System
 
-## 📌 Description
-This project simulates a real-world transport seat booking system using Python.
+This is a Python project that simulates a basic transport seat booking system.
 
-## 🔥 Features
-- ✔️ Full seat availability check
-- ✔️ Segmented seat booking (multiple seats)
-- ✔️ Continuous segment detection
+### What it does
+- Checks if a seat is available for the full journey  
+- If not, allows booking using different seats for different segments  
+- Shows available continuous seat segments  
 
-## 🛠️ Tech Used
-- Python
-- Pandas
+### Why I built this
+Sometimes a seat is not available for the entire journey, even though parts of it are free.  
+This project tries to use those partial seats efficiently instead of rejecting the booking.
 
-## ▶️ How to Run
-1. Install pandas:
-   pip install pandas
+### Technologies used
+- Python  
+- Pandas  
 
-2. Run:
-   python seat_booking_system.py
+### How to run
+1. Install pandas  
+   pip install pandas  
 
-## 💡 Concept
-If a full seat is not available, the system allows booking using different seats for different segments.
+2. Run the program  
+   python seat_booking_system.py  
 
-## 📂 Files
-- seat_booking_system.py → main logic
+### Files
+- seat_booking_system.py → main code  
 - seg.csv → seat data

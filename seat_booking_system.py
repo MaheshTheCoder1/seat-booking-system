@@ -112,7 +112,7 @@ def book_segement_seats(source, destination, seat_data, stops):
 
 #Code 
 seat_data = pd.read_csv("/home/rgukt/Documents/python/seg.csv")
-stops = list(seat_data.columns)
+stops = list(seat_data.columns)[1:]
 source = input("Enter the boarding point : ").upper()
 destination = input("Enter the droping point : ").upper()
 
